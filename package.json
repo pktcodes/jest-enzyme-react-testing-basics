@@ -38,7 +38,11 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@eslint/js": "^9.8.0",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.8"
+    "enzyme-adapter-react-16": "^1.15.8",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0"
   }
 }
