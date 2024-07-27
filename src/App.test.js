@@ -7,7 +7,9 @@ import App from './App';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-test('renders without crashing', () => {
+test('renders non-empty component without crashing', () => {
   const wrapper = shallow(<App />);
-  console.log(wrapper.debug());
+  expect(wrapper.exists()).toBe(false);
 });
+
+// exists() - Returns whether or not any nodes exist in the wrapper.
